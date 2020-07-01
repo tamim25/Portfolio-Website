@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.my_120 {
+    margin: 120px 0;
+}
+
+/* Start Header Section */
+.top{
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+.content{
+    width: 75%;
+    margin: auto;
+    padding: 200px 0px;
+}
+.text-area{
+    width: 45%;
+    float: left;
+    padding: 50px 0px;  
+}
+.media{
+    width: 55%;
+    float: left;
+}
+.media img{
+    float: right;
+    width:550px;
+    height:550px;
+}
+.hello{
+    color: #555555;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+.hello span{
+    color: #ec4c7c;
+    font-size: 55px;
+    font-weight: 800;
+    font-style: normal;
+}
+.para,.para2{
+    color: #969696;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+.link,.cv{
+    color: #ffffff;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none; 
+    padding: 11px 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 30px 0px;
+    background-image: linear-gradient(to left, #E13185 , #EB497E);
+    border-radius: 5%;
+} 
+/* End Mid Section */
+/* Start Mid Section */
+.middle{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-area img{
+    width: 500px;
+    height: 600px;
+}
+.mid-section{
+    width: 75%;
+    margin: auto;
+    padding: 200px 0px;
+}
+.img-area{
+    float: left;
+    width: 55%;
+}
+.bio-area{
+    float: right;
+    width:40%;
+    padding: 90px 0px;
+}
+.bio{
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 500;
+    color: #000000;
+}
+/* End Mid Section */
+.latest{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-section {
+    text-align: center;
+}
+.latest-content {
+    width: 80%;
+    margin: auto;
+}
+.latest img {
+    width: 30%;
+    margin: 0 16px;
+}
+.headline, .client{
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    margin: 100px 0px;
+}
+/* Footer Part */
+.last-part{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 350px;
+}
+.ceo{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+.ceo span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #969696;   
+}
+.message{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #444444;
+    width: 40%;
+    margin: auto;
+}
+.button{
+    color: #ffffff;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none; 
+    padding: 50px 100px;
+    display: inline-block;
+    margin: 30px 0px;
+    background-image: linear-gradient(to right, #E13185 , #EB497E);
+    border-radius: 2%;
+}
+.button span{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 60px;    
+}
+footer p{
+    text-align: center;
+    color: #777777;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+/*End Of Footer */
+
+
+
+
+
+
+
